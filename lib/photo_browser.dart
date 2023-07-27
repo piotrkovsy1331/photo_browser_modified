@@ -323,7 +323,6 @@ class _PhotoBrowserState extends State<PhotoBrowser> {
     List<Widget> children = <Widget>[
       _buildBackColor(),
       _buildPageView(),
-      _buildPageCode(),
       if (widget.showPageTurnBtn) _buildLeftArrow(),
       if (widget.showPageTurnBtn) _buildRightArrow(),
     ];
